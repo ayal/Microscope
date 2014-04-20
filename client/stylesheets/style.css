@@ -11,7 +11,7 @@
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
-body {
+body {direction:rtl;
   background: #eee;
   color: #666666; }
 
@@ -54,17 +54,17 @@ body {
     transition: all 300ms 0ms ease-in; }
   .post .upvote {
     display: block;
-    margin: 7px 12px 0 0;
-    float: left; }
+    margin: 7px 0 0 12px;
+    float: right; }
   .post .post-content {
-    float: left; }
+    float: right; }
     .post .post-content h3 {
       margin: 0;
       line-height: 1.4;
       font-size: 18px; }
       .post .post-content h3 a {
         display: inline-block;
-        margin-right: 5px; }
+        margin-left: 5px; }
       .post .post-content h3 span {
         font-weight: normal;
         font-size: 14px;
@@ -74,7 +74,7 @@ body {
       margin: 0; }
   .post .discuss {
     display: block;
-    float: right;
+    float: left;
     margin-top: 7px; }
 
 .comments {
