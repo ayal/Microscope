@@ -1,3 +1,7 @@
 i18n.map('he', {
-   'discuss': 'תגובות'
+   'discuss': 'תגובות',
+   'comment': 'הערות',
+   'like': 'טוב',
+   'subby': 'נכתב ע"י',
+   
 });
