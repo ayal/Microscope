@@ -29,6 +29,7 @@ body {direction:rtl;
   height: 300px; }
 
 .post {
+  background: #FC0;
   /* For modern browsers */
   /* For IE 6/7 (trigger hasLayout) */
   *zoom: 1;
