@@ -6,18 +6,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="{{pathFor 'home'}}">Microscope</a>
+      <a class="brand" href="{{pathFor 'home'}}">{{i18n "appname"}}</a>
       <div class="nav-collapse collapse">
         <ul class="nav">
           <li class="{{activeRouteClass 'home' 'newPosts'}}">
-            <a href="{{pathFor 'newPosts'}}">New</a>
+            <a href="{{pathFor 'newPosts'}}">{{i18n "new"}}</a>
           </li>
           <li class="{{activeRouteClass  'bestPosts'}}">
-            <a href="{{pathFor 'bestPosts'}}">Best</a>
+            <a href="{{pathFor 'bestPosts'}}">{{i18n "best"}}</a>
           </li>
           {{#if currentUser}}
             <li class="{{activeRouteClass 'postSubmit'}}">
-              <a href="{{pathFor 'postSubmit'}}">Submit Post</a>
+              <a href="{{pathFor 'postSubmit'}}">{{i18n "subpost"}}</a>
             </li>
             <li class="dropdown">
               {{> notifications}}
