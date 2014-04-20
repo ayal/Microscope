@@ -10,6 +10,6 @@ i18n.map('he', {
    'appname': 'nuTalk',
    'new': 'חדשים',
    'best': 'טובים',
-   'subpost': 'לכתוב פוסט'
+   'subpost': 'לכתוב פוסט',
    'Vote': 'אהבתי',
 });
